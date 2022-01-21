@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeTo's Game Emulator</title>
+    <script src="static/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="static/es6-promise.min.js"></script>
+    <script type="text/javascript" src="static/browserfs.min.js"></script>
+    <script src="static/loader.js"></script>
+    <script src="static/base.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+    <link rel="shortcut icon" href="static/favicon.ico">
+</head>
+
+<body style="background-color: #ebebeb">
+
+<div style="margin: 10rem 30rem">
+    <div id="main-wrapper" align="center">
+        <div id="emulator-container" style="width: 40rem; height: 30rem; ">
+            <div id="emularity-splash-screen" style="margin-top: 6rem"></div>
+            <canvas id="emularity-canvas"></canvas>
+        </div>
+    </div>
+    <div id="tool" align="center" style="margin-top: 2rem">
+        <button id="full" onclick="fullScreen()">Full Screen</button>
+        <button id="site" onclick="visitSite()">Support</button>
+    </div>
+    <div id="operation"
+         style="background-color: #d2d2d2; padding: 1rem; margin: 1rem; color: #4a4a4a; font-weight: 400">
+        Operations Guide：<br/><br/>
+        * Direction Key<br/>
+        * Start: 1 or option<br/>
+        * Select: 5<br/>
+        * A: alt<br/>
+        * B: ctrl<br/><br/>
+
+        Some game buttons need to explore by yourself.
+
+    </div>
+    <div id="footer" align="center" style="margin: 2rem 0; font-size: 0.9rem; font-weight: 300">
+        &copy; leesoar.com | secure@tom.com
+    </div>
+</div>
+
+<script>
+</script>
+</body>
+</html>
